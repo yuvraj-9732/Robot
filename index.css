@@ -1,0 +1,99 @@
+/*CSS stylesheet for the project*/
+
+/*CSS for the entire webpage*/
+body { 
+    margin: 0; 
+    overflow: hidden; 
+    background-color: #191970;
+}
+
+/*Canvas*/
+canvas { 
+    display: block;
+}
+
+/*CSS for the mode button*/
+.mode{
+    width: 8vw;
+    height: 7vh;
+    border-radius: 1em;
+    background-color: blue;
+    margin-top: 1vw;
+    background-image: url('/media/night.png');
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    border-color: rgb(213, 59, 224) ;
+    border-width: 0.4vw;
+    position: absolute;
+    left: 5vw;
+    top: 2vw;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+/*CSS keyframes for border-color animation*/
+@keyframes writing_space {
+    0%   {border-color: rgb(22, 20, 152);}
+    25%  {border-color: rgb(226, 43, 208)}
+    50%  {border-color: rgb(167, 59, 207);}
+    100% {border-color: rgb(18, 87, 128);}
+    }
+
+/*CSS when hovering over the mode button*/
+.mode:hover {
+    animation: writing_space 3s infinite;
+}
+
+/*CSS for the moon and sun images*/
+#modeDisplay{
+    max-width: 20vw;
+    max-height: 20vh;
+    position: absolute;
+    right: 5vw;
+    top: 3vw;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.modelbtn{
+    background-color: darkmagenta;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    border: 0.4vw double white;
+    padding: 0.7vw 1vw;
+    position: absolute;
+    top: 10vw;
+    left: 5vw;
+}
+
+#btn2{
+    top:15vw;
+}
+
+#btn3{
+    top: 20vw;
+}
+
+#btn4{
+    top: 25vw;
+}
+
+/*CSS when the sun or moon image is hovered*/
+#modeDisplay:hover{
+    opacity: 1;  /*Creates a glowing effect as intially it has opacity of 0.8*/
+}
+
+/*CSS for responsive mode button*/
+@media screen and (max-width: 768px){
+    .mode{
+        width: 30vw;
+        height: 10vh;
+    }
+
+    .modelbtn{
+        margin-top: 10vw;
+    }
+}

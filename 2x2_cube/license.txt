@@ -1,0 +1,8 @@
+Model Information:
+* title:	2x2 Cube
+* source:	https://sketchfab.com/3d-models/2x2-cube-962e1b567615457cb8947a9cc0f25157
+* author:	The Forgotten Player (https://sketchfab.com/TFPlayer)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
