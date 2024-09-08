@@ -2,22 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>3D Forest Houese</title>
+    <title>3D Forest House</title>
     <!-- Linking CSS stylesheet -->
     <link rel="stylesheet" href="index.css">
     <link rel="icon" href="media/logo.png" type="image/x-icon">
-
 </head>
 <body>
 
-        <!-- Mode button switch between day and night -->
-        <button class="mode" id="modeButton" onclick="toggleLights()"></button>
-        <button onclick="loadModel('2x2_cube/scene.gltf')" class="modelbtn" id="btn1">Load Cube Model</button>
-        <button onclick="loadModel('forest_house/scene.gltf')" class="modelbtn" id="btn2">Load Forest House Model</button>
-        <button onclick="loadModel('lowpoly_backpack/scene.gltf')" class="modelbtn" id="btn3">Load School Backpack Model</button>
-        <button onclick="loadModel('sugarcube_corner/scene.gltf')" class="modelbtn" id="btn4">Load Sugarcube Corner Model</button>
-   
-    
+    <!-- Mode button switch between day and night -->
+    <button class="mode" id="modeButton" onclick="toggleLights()"></button>
+    <button onclick="loadModel('2x2_cube/scene.gltf')" class="modelbtn" id="btn1">Robo hand model</button>
+
     <!-- Moon image for night and the image changes to Sun when its day -->
     <img src="media/moon.png" id="modeDisplay">
 
@@ -27,13 +22,11 @@
         Your browser does not support the audio element.
     </audio>
 
-   
-    
     <!-- Link to three.js -->
     <script src="https://cdn.jsdelivr.net/npm/three@0.139.0/build/three.min.js"></script>
     <!-- Link to GLTFLoader.js -->
     <script src="https://cdn.jsdelivr.net/npm/three@0.139.0/examples/js/loaders/GLTFLoader.js"></script>
-    <!-- Link to OrbitalControls.js -->
+    <!-- Link to OrbitControls.js -->
     <script src="https://cdn.jsdelivr.net/npm/three@0.139.0/examples/js/controls/OrbitControls.js"></script>
     
     <!-- Link to JavaScript -->

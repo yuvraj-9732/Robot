@@ -1,8 +1,0 @@
-Model Information:
-* title:	Lowpoly backpack
-* source:	https://sketchfab.com/3d-models/lowpoly-backpack-3bd5bb0beb384d41a7d22dcdc84da455
-* author:	Zachey (https://sketchfab.com/zachey01)
-
-Model License:
-* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
-* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
